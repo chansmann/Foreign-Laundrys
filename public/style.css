@@ -9,30 +9,14 @@
     font-weight: 400;
   }
 
-
-
-
 .topnav a:hover{
     background-color: rgba(255, 255, 255, .3);
 }
-
-/* .top-menu {
-    overflow: hidden;
-} */
 
 .topnav img{
     width: 30px;
     height: 30px;
 }
-
-
-
-/* .main-header{
-    background-color: rgb(51,51,51);
-    padding-bottom: 30px;
-}
- */
-
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -65,4 +49,88 @@
     float: right;
 }
 
+.comp-name {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+}
 
+.comp-name-large {
+    font-size: 4em;
+    color: rgb(51, 51, 51);
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    padding-bottom: 2em;
+}
+
+.section-header {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 2.5em;
+    color: #333;
+    text-align: left;
+    margin: .2em;
+}
+
+.about-laund-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 20%;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}

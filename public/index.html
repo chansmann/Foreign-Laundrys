@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="main-header"">
-    <nav class="nav main-nav">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="create.html">CREATE</a></li>
-        <li><a href="find.html">FIND</a></li>
-      </ul>
-    </nav>
-    <h1 class="comp-name comp-name-large">Smart Laund</h1>
-  </header>
+  <header class="main-header">
+    <div class="topnav">
+      <div class="topnav-centered logo-menu-button">
+        <a href="home.html">
+          <img src="/public/images/logo-laundry.png">
+        </a>
+      </div>
+      <div class="outer-button">
+        <a class="active" href="index.html">
+          <img src="/public/images/plus-symbol.png">
+        </a>
+      </div>
+      <div class="topnav-right outer-button">
+        <a href="find.html">
+          <img src="/public/images/magnifier.png">
+        </a>
+      </div>
+    </div>
+  <h1 class="comp-name comp-name-large">Smart Laund</h1>
+</header>
   <div id="like-button-root"></div>
     <div class="formbold-main-wrapper">
         <!-- Author: FormBold Team -->
@@ -217,7 +227,7 @@
       color: #536387;
     }
     .formbold-form-input:focus {
-      border-color: #6A64F1;
+      border-color: #448bdd;
     }
     .formbold-form-label {
       color: #07074D;
@@ -228,7 +238,7 @@
       margin-bottom: 18px;
     }
     .formbold-form-input:focus + .formbold-form-label {
-      color: #6A64F1;
+      color: #448bdd;
     }
   
     .formbold-input-file {
@@ -271,7 +281,7 @@
       padding: 12px 25px;
       border: none;
       font-weight: 500;
-      background-color: #6A64F1;
+      background-color: #448bdd;
       color: white;
       cursor: pointer;
       margin-top: 25px;
