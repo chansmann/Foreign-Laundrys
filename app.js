@@ -132,12 +132,12 @@ app.post('/write',async(req,res)=>{ //async => sets the function to asynchone mo
     }
 
     console.log(req.body); // the data we get is in the body of the request
+
     const machine = new MachineModel(input);
-/*     res.sendFile(__dirname+'/public/qr-code.html'); */
 
 try{
     await machine.save();
-    res.sendFile(__dirname+'/public/qr-code.html');
+/*     res.sendFile(__dirname+'/public/qr-code.html'); */
 }
 catch(err){
     console.log(err);
@@ -145,13 +145,9 @@ catch(err){
 res.redirect('/code/'+id);
 });
 
-// This is basically to losten on port 
+// This is basically to listen on port 
 
 app.listen(port,()=>{
     console.log('Server started at http://localhost:'+port)
 
 });
-
-
-
-
